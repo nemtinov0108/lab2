@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>GWT-Autoservice</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="icon" href="images/favicon.png">
+    <meta property="og:image" content="images/dist/preview.jpg">
+    <link rel="stylesheet" href="css/home.min.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__top">
+        <div class="container header__container"><a class="logo" href="index.html"><img class="logo__img" src="images/dist/logo.svg" alt="logotype company" width="164" height="62"></a>
+          <form class="search" action="search">
+            <details class="search__details">
+              <summary class="search__summary">Browse<i class="icon-caret-down"></i></summary>
+              <div class="search__dropdown">
+                <h5 class="search__title">Repair detail</h5>
+                <ul class="search__list">
+                  <li class="search__item"><a class="search__link" href="#">Detail 1</a></li>
+                  <li class="search__item"><a class="search__link" href="#">Detail 2</a></li>
+                  <li class="search__item"><a class="search__link" href="#">Detail 3</a></li>
+                  <li class="search__item"><a class="search__link" href="#">Detail 4</a></li>
+                  <li class="search__item"><a class="search__link" href="#">Detail 5</a></li>
+                  <li class="search__item"><a class="search__link" href="#">Detail 6</a></li>
+                  <li class="search__item"><a class="search__link" href="#">Detail 7</a></li>
+                  <li class="search__item"><a class="search__link" href="#">Detail 8</a></li>
+                  <li class="search__item"><a class="search__link" href="#">Detail 9</a></li>
+                </ul>
+                <h5 class="search__title">Replacing wheels</h5>
+                <ul class="search__list">
+                  <li class="search__item"><a class="search__link" href="#">Wheels for car  1</a></li>
+                  <li class="search__item"><a class="search__link" href="#">Wheels for car  2</a></li>
+                  <li class="search__item"><a class="search__link" href="#">Wheels for car  3</a></li>
+                  <li class="search__item"><a class="search__link" href="#">Wheels for car  4</a></li>
+                  <li class="search__item"><a class="search__link" href="#">Wheels for car  5</a></li>
+                  <li class="search__item"><a class="search__link" href="#">Wheels for car  6</a></li>
+                </ul>
+              </div>
+            </details>
+            <input class="search__value" type="search" placeholder="Search for Item...">
+            <button class="btn search__btn" type="submit"><i class="icon-search"></i></button>
+          </form>
+          <details class="cart">
+            <summary class="cart__summary"><i class="icon-cart"></i></summary>
+            <div class="cart__dropdown">
+              <ul class="cart__list">
+                <li class="cart__item"><a class="cart__item-link" href="product.html"><img class="cart__img" src="images/dist/cart-1.jpg" alt="man" width="72" height="85">
+                    <div class="cart__item-body">
+                      <p class="cart__title">Rebox Zane</p>
+                      <div class="cart__stars"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star-half"></i></div>
+                      <p class="cart__price">1 x $250</p>
+                    </div></a><i class="icon-cancel cart__icon-cancel"></i></li>
+                <li class="cart__item"><a class="cart__item-link" href="product.html"><img class="cart__img" src="images/dist/cart-2.jpg" alt="woman" width="72" height="85">
+                    <div class="cart__item-body">
+                      <p class="cart__title">Rebox Zane</p>
+                      <div class="cart__stars"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star-half"></i></div>
+                      <p class="cart__price">1 x $250</p>
+                    </div></a><i class="icon-cancel cart__icon-cancel"></i></li>
+              </ul>
+              <div class="cart__total">
+                <div class="cart__total-text">Total</div>
+                <div class="cart__total-summ">$500</div>
+              </div><a class="btn cart__link cart__link_first" href="checkout.html"> Checkout</a><a class="btn cart__link" href="cart.html">Go to cart</a>
+            </div>
+          </details>
+          <details class="user">
+            <summary class="user__summary"><span class="user__desctop">My Account</span><i class="icon-user-circle user__mobile"></i><i class="icon-caret-down user__desctop"></i></summary>
+            <ul class="user__dropdown">
+              <li class="user__item"><a class="user__link" href="#">Login / Register</a></li>
+              <li class="user__item"><a class="user__link" href="#">Support</a></li>
+            </ul>
+          </details>
+          <button class="btn hamburger" type="button"><span class="hamburger__line"></span></button>
+        </div>
+      </div>
+      <nav class="navigation">
+        <div class="container navigation__container">
+          <ul class="menu">
+            <li class="menu__item active"><a class="menu__link menu__link_home" href="index.html">Home</a></li>
+            <li class="menu__item"><a class="menu__link" href="catalog.html">Repair detail</a>
+              <div class="submenu">
+                <div class="submenu__col">
+                  <div class="submenu__item">
+                    <h5 class="submenu__item-title">Repair detail</h5><a class="submenu__link" href="catalog.html">Dresses</a><a class="submenu__link" href="catalog.html">Tops</a><a class="submenu__link" href="catalog.html">Sweaters/Knits</a><a class="submenu__link" href="catalog.html">Jackets/Coats</a><a class="submenu__link" href="catalog.html">Blazers</a><a class="submenu__link" href="catalog.html">Denim</a><a class="submenu__link" href="catalog.html">Leggings/Pants</a><a class="submenu__link" href="catalog.html">Skirts/Shorts</a><a class="submenu__link" href="catalog.html">Accessories</a>
+                  </div>
+                </div>
+                <div class="submenu__col">
+                  <div class="submenu__item submenu__item_mb">
+                    <h5 class="submenu__item-title">Repair detail</h5><a class="submenu__link" href="catalog.html">Dresses</a><a class="submenu__link" href="catalog.html">Tops</a><a class="submenu__link" href="catalog.html">Sweaters/Knits</a><a class="submenu__link" href="catalog.html">Jackets/Coats</a>
+                  </div>
+                  <div class="submenu__item">
+                    <h5 class="submenu__item-title">Repair detail</h5><a class="submenu__link" href="catalog.html">Dresses</a><a class="submenu__link" href="catalog.html">Tops</a><a class="submenu__link" href="catalog.html">Sweaters/Knits</a>
+                  </div>
+                </div>
+                <div class="submenu__col">
+                  <div class="submenu__item submenu__item_mb">
+                    <h5 class="submenu__item-title">Repair detail</h5><a class="submenu__link" href="catalog.html">Dresses</a><a class="submenu__link" href="catalog.html">Tops</a><a class="submenu__link" href="catalog.html">Sweaters/Knits</a><a class="submenu__link" href="catalog.html">Jackets/Coats</a>
+                  </div><a class="submenu__sale-box" href="#"> <img class="submenu__img" src="images/dist/menu-sale.jpg" alt="sale" width="200" height="100">
+                    <p class="submenu__text">Super sale!</p></a>
+                </div>
+              </div>
+            </li>
+            <li class="menu__item"><a class="menu__link" href="catalog.html">Replacing wheels</a>
+              <div class="submenu">
+                <div class="submenu__col">
+                  <div class="submenu__item">
+                    <h5 class="submenu__item-title">Replacing wheels</h5><a class="submenu__link" href="catalog.html">Dresses</a><a class="submenu__link" href="catalog.html">Tops</a><a class="submenu__link" href="catalog.html">Sweaters/Knits</a><a class="submenu__link" href="catalog.html">Jackets/Coats</a><a class="submenu__link" href="catalog.html">Blazers</a><a class="submenu__link" href="catalog.html">Denim</a><a class="submenu__link" href="catalog.html">Leggings/Pants</a><a class="submenu__link" href="catalog.html">Skirts/Shorts</a><a class="submenu__link" href="catalog.html">Accessories</a>
+                  </div>
+                </div>
+                <div class="submenu__col">
+                  <div class="submenu__item submenu__item_mb">
+                    <h5 class="submenu__item-title">Replacing wheels</h5><a class="submenu__link" href="catalog.html">Dresses</a><a class="submenu__link" href="catalog.html">Tops</a><a class="submenu__link" href="catalog.html">Sweaters/Knits</a><a class="submenu__link" href="catalog.html">Jackets/Coats</a>
+                  </div>
+                  <div class="submenu__item">
+                    <h5 class="submenu__item-title">Replacing wheels</h5><a class="submenu__link" href="catalog.html">Dresses</a><a class="submenu__link" href="catalog.html">Tops</a><a class="submenu__link" href="catalog.html">Sweaters/Knits</a>
+                  </div>
+                </div>
+                <div class="submenu__col">
+                  <div class="submenu__item submenu__item_mb">
+                    <h5 class="submenu__item-title">Replacing wheels</h5><a class="submenu__link" href="catalog.html">Dresses</a><a class="submenu__link" href="catalog.html">Tops</a><a class="submenu__link" href="catalog.html">Sweaters/Knits</a><a class="submenu__link" href="catalog.html">Jackets/Coats</a>
+                  </div><a class="submenu__sale-box" href="#"> <img class="submenu__img" src="images/dist/menu-sale.jpg" alt="sale" width="200" height="100">
+                    <p class="submenu__text">Super sale!</p></a>
+                </div>
+              </div>
+            </li>
+            <li class="menu__item"><a class="menu__link" href="catalog.html">Buy details</a>
+              <div class="submenu">
+                <div class="submenu__col">
+                  <div class="submenu__item">
+                    <h5 class="submenu__item-title">Buy details</h5><a class="submenu__link" href="catalog.html">Dresses</a><a class="submenu__link" href="catalog.html">Tops</a><a class="submenu__link" href="catalog.html">Sweaters/Knits</a><a class="submenu__link" href="catalog.html">Jackets/Coats</a><a class="submenu__link" href="catalog.html">Blazers</a><a class="submenu__link" href="catalog.html">Denim</a><a class="submenu__link" href="catalog.html">Leggings/Pants</a><a class="submenu__link" href="catalog.html">Skirts/Shorts</a><a class="submenu__link" href="catalog.html">Accessories</a>
+                  </div>
+                </div>
+                <div class="submenu__col">
+                  <div class="submenu__item submenu__item_mb">
+                    <h5 class="submenu__item-title">Buy details</h5><a class="submenu__link" href="catalog.html">Dresses</a><a class="submenu__link" href="catalog.html">Tops</a><a class="submenu__link" href="catalog.html">Sweaters/Knits</a><a class="submenu__link" href="catalog.html">Jackets/Coats</a>
+                  </div>
+                  <div class="submenu__item">
+                    <h5 class="submenu__item-title">Buy details</h5><a class="submenu__link" href="catalog.html">Dresses</a><a class="submenu__link" href="catalog.html">Tops</a><a class="submenu__link" href="catalog.html">Sweaters/Knits</a>
+                  </div>
+                </div>
+                <div class="submenu__col">
+                  <div class="submenu__item submenu__item_mb">
+                    <h5 class="submenu__item-title">Buy details</h5><a class="submenu__link" href="catalog.html">Dresses</a><a class="submenu__link" href="catalog.html">Tops</a><a class="submenu__link" href="catalog.html">Sweaters/Knits</a><a class="submenu__link" href="catalog.html">Jackets/Coats</a>
+                  </div><a class="submenu__sale-box" href="#"> <img class="submenu__img" src="images/dist/menu-sale.jpg" alt="sale" width="200" height="100">
+                    <p class="submenu__text">Super sale!				</p></a>
+                </div>
+              </div>
+            </li>
+            <li class="menu__item"><a class="menu__link" href="catalog.html">Accoseriese</a>
+              <div class="submenu">
+                <div class="submenu__col">
+                  <div class="submenu__item">
+                    <h5 class="submenu__item-title">Accoseriese</h5><a class="submenu__link" href="catalog.html">Dresses</a><a class="submenu__link" href="catalog.html">Tops</a><a class="submenu__link" href="catalog.html">Sweaters/Knits</a><a class="submenu__link" href="catalog.html">Jackets/Coats</a><a class="submenu__link" href="catalog.html">Blazers</a><a class="submenu__link" href="catalog.html">Denim</a><a class="submenu__link" href="catalog.html">Leggings/Pants</a><a class="submenu__link" href="catalog.html">Skirts/Shorts</a><a class="submenu__link" href="catalog.html">Accessories</a>
+                  </div>
+                </div>
+                <div class="submenu__col">
+                  <div class="submenu__item submenu__item_mb">
+                    <h5 class="submenu__item-title">Accoseriese</h5><a class="submenu__link" href="catalog.html">Dresses</a><a class="submenu__link" href="catalog.html">Tops</a><a class="submenu__link" href="catalog.html">Sweaters/Knits</a><a class="submenu__link" href="catalog.html">Jackets/Coats</a>
+                  </div>
+                  <div class="submenu__item">
+                    <h5 class="submenu__item-title">Accoseriese</h5><a class="submenu__link" href="catalog.html">Dresses</a><a class="submenu__link" href="catalog.html">Tops</a><a class="submenu__link" href="catalog.html">Sweaters/Knits</a>
+                  </div>
+                </div>
+                <div class="submenu__col">
+                  <div class="submenu__item submenu__item_mb">
+                    <h5 class="submenu__item-title">Accoseriese</h5><a class="submenu__link" href="catalog.html">Dresses</a><a class="submenu__link" href="catalog.html">Tops</a><a class="submenu__link" href="catalog.html">Sweaters/Knits</a><a class="submenu__link" href="catalog.html">Jackets/Coats</a>
+                  </div><a class="submenu__sale-box" href="#"> <img class="submenu__img" src="images/dist/menu-sale.jpg" alt="sale" width="200" height="100">
+                    <p class="submenu__text">Super sale!</p></a>
+                </div>
+              </div>
+            </li>
+            <li class="menu__item"><a class="menu__link" href="catalog.html">Featured</a>
+              <div class="submenu">
+                <div class="submenu__col">
+                  <div class="submenu__item">
+                    <h5 class="submenu__item-title">Featured</h5><a class="submenu__link" href="catalog.html">Dresses</a><a class="submenu__link" href="catalog.html">Tops</a><a class="submenu__link" href="catalog.html">Sweaters/Knits</a><a class="submenu__link" href="catalog.html">Jackets/Coats</a><a class="submenu__link" href="catalog.html">Blazers</a><a class="submenu__link" href="catalog.html">Denim</a><a class="submenu__link" href="catalog.html">Leggings/Pants</a><a class="submenu__link" href="catalog.html">Skirts/Shorts</a><a class="submenu__link" href="catalog.html">Accessories</a>
+                  </div>
+                </div>
+                <div class="submenu__col">
+                  <div class="submenu__item submenu__item_mb">
+                    <h5 class="submenu__item-title">Featured</h5><a class="submenu__link" href="catalog.html">Dresses</a><a class="submenu__link" href="catalog.html">Tops</a><a class="submenu__link" href="catalog.html">Sweaters/Knits</a><a class="submenu__link" href="catalog.html">Jackets/Coats</a>
+                  </div>
+                  <div class="submenu__item">
+                    <h5 class="submenu__item-title">Featured</h5><a class="submenu__link" href="catalog.html">Dresses</a><a class="submenu__link" href="catalog.html">Tops</a><a class="submenu__link" href="catalog.html">Sweaters/Knits</a>
+                  </div>
+                </div>
+                <div class="submenu__col">
+                  <div class="submenu__item submenu__item_mb">
+                    <h5 class="submenu__item-title">Featured</h5><a class="submenu__link" href="catalog.html">Dresses</a><a class="submenu__link" href="catalog.html">Tops</a><a class="submenu__link" href="catalog.html">Sweaters/Knits</a><a class="submenu__link" href="catalog.html">Jackets/Coats</a>
+                  </div><a class="submenu__sale-box" href="#"> <img class="submenu__img" src="images/dist/menu-sale.jpg" alt="sale" width="200" height="100">
+                    <p class="submenu__text">Super sale!</p></a>
+                </div>
+              </div>
+            </li>
+            <li class="menu__item"><a class="menu__link" href="catalog.html">Hot deals</a>
+              <div class="submenu">
+                <div class="submenu__col">
+                  <div class="submenu__item">
+                    <h5 class="submenu__item-title">Hot deals</h5><a class="submenu__link" href="catalog.html">Dresses</a><a class="submenu__link" href="catalog.html">Tops</a><a class="submenu__link" href="catalog.html">Sweaters/Knits</a><a class="submenu__link" href="catalog.html">Jackets/Coats</a><a class="submenu__link" href="catalog.html">Blazers</a><a class="submenu__link" href="catalog.html">Denim</a><a class="submenu__link" href="catalog.html">Leggings/Pants</a><a class="submenu__link" href="catalog.html">Skirts/Shorts</a><a class="submenu__link" href="catalog.html">Accessories</a>
+                  </div>
+                </div>
+                <div class="submenu__col">
+                  <div class="submenu__item submenu__item_mb">
+                    <h5 class="submenu__item-title">Hot deals</h5><a class="submenu__link" href="catalog.html">Dresses</a><a class="submenu__link" href="catalog.html">Tops</a><a class="submenu__link" href="catalog.html">Sweaters/Knits</a><a class="submenu__link" href="catalog.html">Jackets/Coats</a>
+                  </div>
+                  <div class="submenu__item">
+                    <h5 class="submenu__item-title">Hot deals</h5><a class="submenu__link" href="catalog.html">Dresses</a><a class="submenu__link" href="catalog.html">Tops</a><a class="submenu__link" href="catalog.html">Sweaters/Knits</a>
+                  </div>
+                </div>
+                <div class="submenu__col">
+                  <div class="submenu__item submenu__item_mb">
+                    <h5 class="submenu__item-title">Hot deals</h5><a class="submenu__link" href="catalog.html">Dresses</a><a class="submenu__link" href="catalog.html">Tops</a><a class="submenu__link" href="catalog.html">Sweaters/Knits</a><a class="submenu__link" href="catalog.html">Jackets/Coats</a>
+                  </div><a class="submenu__sale-box" href="#"> <img class="submenu__img" src="images/dist/menu-sale.jpg" alt="sale" width="200" height="100">
+                    <p class="submenu__text">Super sale!</p></a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="content">
+      <header class="content__header">
+        <div class="container content__container" style="background-image: url(images/dist/home-bg.jpg)">
+          <h1 class="content__title">Best service<span class="content__title_small">machine maintenance <span class="content__title_pinc">only here</span></span></h1>
+        </div>
+      </header>
+      <div class="container">
+        <section class="offers">
+          <div class="offers__col"><a class="offers__card offers__card_big" href="catalog.html">
+              <h2 class="offers__title">Hot deal <span class="offers__title_big">for you</span></h2><img class="offers__img" src="images/dist/man.jpg" alt="man" width="746" height="768"></a><a class="offers__card" href="catalog.html">
+              <h2 class="offers__title">Luxirous & trendy <span class="offers__title_big">details</span></h2><img class="offers__img" src="images/dist/wallet.jpg" alt="wallet" width="900" height="623"></a></div>
+          <div class="offers__col offers__col_rewers"><a class="offers__card" href="catalog.html">
+              <h2 class="offers__title">30% offer <span class="offers__title_big">on details</span></h2><img class="offers__img" src="images/dist/woman.jpg" alt="woman" width="560" height="300"></a><a class="offers__card offers__card_big" href="catalog.html">
+              <h2 class="offers__title">New arrivals <span class="offers__title_big">replacing whells</span></h2><img class="offers__img" src="images/dist/kids.jpg" alt="kids" width="1680" height="945"></a></div>
+        </section>
+        <section class="products">
+          <header class="products__header">
+            <h2 class="products__title">Top sellers</h2>
+            <p class="products__desc">Products that are purchased most often</p>
+          </header>
+          <div class="products__body">
+            <div class="products__item"><a class="product" href="product.html"><img class="product__img" src="images/dist/card-1.jpg" alt="product-1" width="600" height="700">
+                <div class="product__info">
+                  <h3 class="product__title">Detail 1</h3>
+                  <div class="product__price">$157.00</div>
+                </div></a>
+              <button class="btn product__btn" type="button">Add to Cart<i class="icon-cart"></i></button>
+            </div>
+            <div class="products__item"><a class="product" href="product.html"><img class="product__img" src="images/dist/card-2.jpg" alt="product-2" width="600" height="700">
+                <div class="product__info">
+                  <h3 class="product__title">Detail 2</h3>
+                  <div class="product__price">$98.00</div>
+                </div></a>
+              <button class="btn product__btn" type="button">Add to Cart<i class="icon-cart"></i></button>
+            </div>
+            <div class="products__item"><a class="product" href="product.html"><img class="product__img" src="images/dist/card-3.jpg" alt="product-3" width="600" height="700">
+                <div class="product__info">
+                  <h3 class="product__title">Detail 3</h3>
+                  <div class="product__price">$92.10</div>
+                </div></a>
+              <button class="btn product__btn" type="button">Add to Cart<i class="icon-cart"></i></button>
+            </div>
+            <div class="products__item"><a class="product" href="product.html"><img class="product__img" src="images/dist/card-4.jpg" alt="product-4" width="600" height="700">
+                <div class="product__info">
+                  <h3 class="product__title">Detail 4</h3>
+                  <div class="product__price">$64.00</div>
+                </div></a>
+              <button class="btn product__btn" type="button">Add to Cart<i class="icon-cart"></i></button>
+            </div>
+            <div class="products__item"><a class="product" href="product.html"><img class="product__img" src="images/dist/card-5.jpg" alt="product-5" width="600" height="700">
+                <div class="product__info">
+                  <h3 class="product__title">Detail 5</h3>
+                  <div class="product__price">$87.00</div>
+                </div></a>
+              <button class="btn product__btn">Add to Cart<i class="icon-cart"></i></button>
+            </div>
+            <div class="products__item"><a class="product" href="product.html"><img class="product__img" src="images/dist/card-6.jpg" alt="product-6" width="600" height="700">
+                <div class="product__info">
+                  <h3 class="product__title">Detail 6</h3>
+                  <div class="product__price">$34.00</div>
+                </div></a>
+              <button class="btn product__btn">Add to Cart<i class="icon-cart"></i></button>
+            </div>
+            <div class="products__item"><a class="product" href="product.html"><img class="product__img" src="images/dist/card-7.jpg" alt="product-7" width="600" height="700">
+                <div class="product__info">
+                  <h3 class="product__title">Detail 7</h3>
+                  <div class="product__price">$45.00</div>
+                </div></a>
+              <button class="btn product__btn">Add to Cart<i class="icon-cart"></i></button>
+            </div>
+            <div class="products__item"><a class="product" href="product.html"><img class="product__img" src="images/dist/card-8.jpg" alt="product-8" width="260" height="303">
+                <div class="product__info">
+                  <h3 class="product__title">Detail 8</h3>
+                  <div class="product__price">$71.00</div>
+                </div></a>
+              <button class="btn product__btn">Add to Cart<i class="icon-cart"></i></button>
+            </div>
+          </div>
+          <footer class="products__footer"><a class="btn products__btn" href="catalog.html"> Browse All Product<i class="icon-long-arrow-right"></i></a></footer>
+        </section>
+        <div class="banner"><a class="banner__link" href="#"><img class="banner__img" src="images/dist/sale.jpg" alt="girl in a hat"></a>
+          <div class="conditions">
+            <div class="conditions__item"><i class="icon-truck conditions__icon"></i>
+              <div class="conditions__text">
+                <h3 class="conditions__title">Free Delivery</h3>
+                <p class="conditions__desc">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+              </div>
+            </div>
+            <div class="conditions__item"><i class="icon-sale conditions__icon"></i>
+              <div class="conditions__text">
+                <h3 class="conditions__title">Sales & discounts</h3>
+                <p class="conditions__desc">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+              </div>
+            </div>
+            <div class="conditions__item"><i class="icon-corona conditions__icon"></i>
+              <div class="conditions__text">
+                <h3 class="conditions__title">Quality assurance</h3>
+                <p class="conditions__desc">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <section class="footer__top">
+        <div class="container footer__container">
+          <div class="footer__comments tabs">
+            <div class="tabs__box">
+                <figcaption class="tabs__text">
+                  <p class="tabs__desc">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
+                  <h5 class="tabs__title">Bin Burhan</h5>
+                  <p class="tabs__locality">Dhaka, Bd</p>
+                </figcaption>
+              </figure>
+              <figure class="tabs__item" id="tab_2"><img class="tabs__img" src="images/dist/avatar-2.jpg" alt="photo user" width="98" height="98">
+                <figcaption class="tabs__text">
+                  <p class="tabs__desc">“Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
+                  <h5 class="tabs__title">Bin Burhan</h5>
+                  <p class="tabs__locality">Dhaka, Bd</p>
+                </figcaption>
+              </figure>
+              <figure class="tabs__item" id="tab_3"><img class="tabs__img" src="images/dist/avatar-3.jpg" alt="photo user" width="98" height="98">
+                <figcaption class="tabs__text">
+                  <p class="tabs__desc">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a.”</p>
+                  <h5 class="tabs__title">Bin Burhan</h5>
+                  <p class="tabs__locality">Dhaka, Bd</p>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="tabs__navigation"><span class="tabs__btn" data-tab="#tab_1"></span><span class="tabs__btn" data-tab="#tab_2"></span><span class="tabs__btn" data-tab="#tab_3"></span></div>
+          </div>
+          <div class="footer__subscribe subscribe">
+            <div class="subscribe__box">
+              <h2 class="subscribe__title">Subscribe</h2>
+              <p class="subscribe__desc">For our newletter and promotion</p>
+              <form class="subscribe__form" method="POST" autocomplete="off" novalidate>
+                <input class="subscribe__value" id="subscribe" type="email" name="subscribe" placeholder="Enter Your Email">
+                <button class="btn subscribe__btn" type="submit">Subscribe</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="footer__info">
+        <div class="container footer__container">
+          <div class="footer__brand"><a class="footer__logo logo" href="index.html"><img class="logo__img" src="images/dist/logo.svg" alt="logotype company" width="164" height="62"></a>
+            <div class="footer__desc">
+              <p>Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.</p>
+              <p>Efficiently plagiarize 24/365 action items and focused infomediaries. Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</p>
+            </div>
+          </div>
+          <ul class="footer__menu">
+            <li class="footer__menu-item">Company
+              <ul class="footer__submenu">
+                <li class="footer__submenu-item"><a class="footer__submenu-link" href="/">Home</a></li>
+                <li class="footer__submenu-item"><a class="footer__submenu-link" href="catalog.html">Shop</a></li>
+                <li class="footer__submenu-item"><a class="footer__submenu-link" href="#">About</a></li>
+                <li class="footer__submenu-item"><a class="footer__submenu-link" href="#">How It Works</a></li>
+                <li class="footer__submenu-item"><a class="footer__submenu-link" href="#">Contact</a></li>
+              </ul>
+            </li>
+            <li class="footer__menu-item">Information
+              <ul class="footer__submenu">
+                <li class="footer__submenu-item"><a class="footer__submenu-link" href="#">Tearms & Condition</a></li>
+                <li class="footer__submenu-item"><a class="footer__submenu-link" href="#">Privacy Policy</a></li>
+                <li class="footer__submenu-item"><a class="footer__submenu-link" href="#">How to Buy</a></li>
+                <li class="footer__submenu-item"><a class="footer__submenu-link" href="#">How to Sell</a></li>
+                <li class="footer__submenu-item"><a class="footer__submenu-link" href="#">Promotion</a></li>
+              </ul>
+            </li>
+            <li class="footer__menu-item">Shop category
+              <ul class="footer__submenu">
+                <li class="footer__submenu-item"><a class="footer__submenu-link" href="catalog.html">Buy detail</a></li>
+                <li class="footer__submenu-item"><a class="footer__submenu-link" href="catalog.html">repair car</a></li>
+                <li class="footer__submenu-item"><a class="footer__submenu-link" href="catalog.html">repair details</a></li>
+                <li class="footer__submenu-item"><a class="footer__submenu-link" href="catalog.html">Apparel</a></li>
+                <li class="footer__submenu-item"><a class="footer__submenu-link" href="catalog.html">Brows All</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <div class="container footer__container">
+          <p class="copyright">© 2021  Brand  All Rights Reserved.</p>
+          <div class="social"><a class="social__link" href="https://www.facebook.com/" target="blank"> <i class="icon-facebook"></i></a><a class="social__link" href="https://twitter.com/" target="blank"> <i class="icon-twitter"></i></a><a class="social__link" href="https://ru.linkedin.com/" target="blank"> <i class="icon-linkedin"></i></a><a class="social__link" href="https://www.pinterest.ru/" target="blank"> <i class="icon-pinterest-p"></i></a><a class="social__link" href="https://plus.google.com/" target="blank"> <i class="icon-google"></i></a></div>
+        </div>
+      </div>
+    </footer>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+      (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+      m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+      (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+      ym(84134215, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+      });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/84134215" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+    <script src="js/app.min.js"></script>
+  </body>
+</html>
